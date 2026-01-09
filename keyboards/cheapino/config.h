@@ -13,6 +13,20 @@
 
 #define WS2812_DI_PIN GP16 // The pin connected to the data pin of the LEDs
 #define RGBLIGHT_LED_COUNT 1                     // The number of LEDs connected
+#define RGBLIGHT_DRIVER_WS2812
+
+// Legacy RGB keycode aliases
+#define RGB_TOG  QK_UNDERGLOW_TOGGLE
+#define RGB_MOD  QK_UNDERGLOW_MODE_NEXT
+#define RGB_RMOD QK_UNDERGLOW_MODE_PREVIOUS
+#define RGB_HUI  QK_UNDERGLOW_HUE_UP
+#define RGB_HUD  QK_UNDERGLOW_HUE_DOWN
+#define RGB_SAI  QK_UNDERGLOW_SATURATION_UP
+#define RGB_SAD  QK_UNDERGLOW_SATURATION_DOWN
+#define RGB_VAI  QK_UNDERGLOW_VALUE_UP
+#define RGB_VAD  QK_UNDERGLOW_VALUE_DOWN
+#define RGB_SPI  QK_UNDERGLOW_SPEED_UP
+#define RGB_SPD  QK_UNDERGLOW_SPEED_DOWN
 
 // Max number of threads
 #define MAX_DEFERRED_EXECUTORS 32
