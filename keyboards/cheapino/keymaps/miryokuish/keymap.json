@@ -197,11 +197,11 @@
             "MS_BTN3"
         ],
         [
-            "KC_TRNS",
             "KC_F12",
             "KC_F7",
             "KC_F8",
             "KC_F9",
+            "KC_TRNS",
             "KC_TRNS",
             "KC_TRNS",
             "KC_TRNS",
@@ -266,8 +266,8 @@
             "KC_TRNS",
             "KC_TRNS",
             "KC_LPRN",
-            "KC_UNDS",
             "KC_RPRN",
+            "KC_UNDS",
             "KC_TRNS",
             "KC_TRNS",
             "KC_TRNS"
@@ -304,8 +304,8 @@
             "KC_TRNS",
             "KC_TRNS",
             "KC_0",
-            "KC_MINS",
             "KC_DOT",
+            "KC_MINS",
             "KC_TRNS",
             "KC_TRNS",
             "KC_TRNS"
